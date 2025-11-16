@@ -1,1 +1,1 @@
-# MedPulse_HealthCare
+MedPulse HealthCare is a modern full-stack healthcare management system designed to simplify patient handling, appointments, and medical record management. Built with a scalable architecture and intuitive UI, it aims to streamline hospital workflows and improve overall efficiency.
