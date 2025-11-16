@@ -1,1 +1,1 @@
-# MedPulse_HealhCare
+# MedPulse_HealthCare
