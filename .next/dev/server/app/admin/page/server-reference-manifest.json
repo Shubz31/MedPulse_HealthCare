@@ -1,0 +1,95 @@
+{
+  "node": {
+    "7f0483f907b6b7b1827b1208467c6a471908db9622": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendSMSNotification",
+          "filename": "lib/actions/appointment.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      },
+      "exportedName": "sendSMSNotification",
+      "filename": "lib/actions/appointment.action.ts"
+    },
+    "7f12d9382c77db85eb040961233a41693076baf1a3": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAppointment",
+          "filename": "lib/actions/appointment.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      },
+      "exportedName": "getAppointment",
+      "filename": "lib/actions/appointment.action.ts"
+    },
+    "7f692acfa1cf0bf33e68f3731cd025aa8a120e0a86": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getRecentAppointmentList",
+          "filename": "lib/actions/appointment.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "rsc"
+      },
+      "exportedName": "getRecentAppointmentList",
+      "filename": "lib/actions/appointment.action.ts"
+    },
+    "7f83832d45f20388233bfd9d3f05a4a3b2432bc5f0": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateAppointment",
+          "filename": "lib/actions/appointment.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "action-browser"
+      },
+      "exportedName": "updateAppointment",
+      "filename": "lib/actions/appointment.action.ts"
+    },
+    "7fe7a95cf35bd2bb25bf919763ddf3ddaf6c525035": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createAppointment",
+          "filename": "lib/actions/appointment.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "action-browser"
+      },
+      "exportedName": "createAppointment",
+      "filename": "lib/actions/appointment.action.ts"
+    },
+    "7f9c5e53690ee00206b4f2d7e0bbf11c7a78c22fa2": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/appointment.action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "lib/actions/patient.action.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "action-browser"
+      },
+      "exportedName": "createUser",
+      "filename": "lib/actions/patient.action.ts"
+    }
+  },
+  "edge": {}
+}

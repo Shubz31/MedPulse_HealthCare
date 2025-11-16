@@ -1,0 +1,65 @@
+{
+  "node": {
+    "7f0bd326f22a3ca3fa52b739b5531e5e9d549bc8d3": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "[project]/.next-internal/server/app/patients/[userId]/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUser",
+          "filename": "lib/actions/patient.action.ts"
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "rsc"
+      },
+      "exportedName": "getUser",
+      "filename": "lib/actions/patient.action.ts"
+    },
+    "7f2defba45e37a5116e5fe13a1b3fa3756d0a8b018": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "[project]/.next-internal/server/app/patients/[userId]/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getPatient",
+          "filename": "lib/actions/patient.action.ts"
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "rsc"
+      },
+      "exportedName": "getPatient",
+      "filename": "lib/actions/patient.action.ts"
+    },
+    "7f9c5e53690ee00206b4f2d7e0bbf11c7a78c22fa2": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "[project]/.next-internal/server/app/patients/[userId]/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "lib/actions/patient.action.ts"
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "action-browser"
+      },
+      "exportedName": "createUser",
+      "filename": "lib/actions/patient.action.ts"
+    },
+    "7fabf2cb804bebf4d2a2c0801921df5627a2738695": {
+      "workers": {
+        "app/patients/[userId]/register/page": {
+          "moduleId": "[project]/.next-internal/server/app/patients/[userId]/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/patient.action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerPatient",
+          "filename": "lib/actions/patient.action.ts"
+        }
+      },
+      "layer": {
+        "app/patients/[userId]/register/page": "action-browser"
+      },
+      "exportedName": "registerPatient",
+      "filename": "lib/actions/patient.action.ts"
+    }
+  },
+  "edge": {}
+}

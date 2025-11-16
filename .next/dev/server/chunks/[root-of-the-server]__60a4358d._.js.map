@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "e9e9e9da-feeb-6535-3d56-d8beae2ba2c1",
+  "sections": [
+    {"offset": {"line": 203, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/Desktop/My%20Projects/medpulse/medpulse/instrumentation.ts"],"sourcesContent":[";globalThis[\"_sentryNextJsVersion\"] = \"16.0.1\";import * as Sentry from '@sentry/nextjs';\n\nexport async function register() {\n  if (process.env.NEXT_RUNTIME === 'nodejs') {\n    await import('./sentry.server.config');\n  }\n\n  if (process.env.NEXT_RUNTIME === 'edge') {\n    await import('./sentry.edge.config');\n  }\n}\n\nexport const onRequestError = Sentry.captureRequestError;\n"],"names":[],"mappings":";;;;;;AAA+C;AAA9C,UAAU,CAAC,uBAAuB,GAAG;;AAE/B,eAAe;IACpB,wCAA2C;QACzC;IACF;IAEA;;AAGF;AAEO,MAAM,iBAAiB,iMAA0B","debugId":null}}]
+}
